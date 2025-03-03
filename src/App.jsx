@@ -45,8 +45,6 @@ function App() {
     localStorage.setItem("feedbacks", JSON.stringify(feedbacks));
   }, [feedbacks]);
 
-  //
-
   return (
     <>
       <Section>
